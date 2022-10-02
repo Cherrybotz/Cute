@@ -355,7 +355,7 @@ conn.sendMessage(m.chat, {
     		key: m.key
     	}
     })	
-return conn.send3ButtonLoc(m.chat, await conn.resize(pickRandom(global.waifu), 300, 300), ori, `Note : Jika Anda Menggunakan Wa Lama Atau Mod Dan Tombol Itu Tidak Terlihat Langsung Ketik ${_p}simplemenu`, 'COMMAND', '.simplemenu', 'DONATION', '.donasi', 'RENT BOT', '.sewa', m)
+return conn.send3ButtonLoc(m.chat, await conn.resize(pickRandom(global.takina2), 300, 300), ori, `Note : Jika Anda Menggunakan Wa Lama Atau Mod Dan Tombol Itu Tidak Terlihat Langsung Ketik ${_p}simplemenu`, 'COMMAND', '.simplemenu', 'DONATION', '.donasi', 'RENT BOT', '.sewa', m)
     
     }
   
