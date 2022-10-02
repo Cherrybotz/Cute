@@ -4,6 +4,8 @@ let levelling = require('../lib/levelling')
  let fetch = require('node-fetch') 
  let moment = require('moment-timezone') 
  let jimp = require('jimp') 
+ let time = moment.tz('Asia/Jakarta').format("HH:mm:ss")
+ let date = moment.tz('Asia/Jakarta').format("dddd, Do MMMM, YYYY")
  let PhoneNumber = require('awesome-phonenumber') 
  const defaultMenu = { 
    before: `
@@ -353,7 +355,7 @@ conn.sendMessage(m.chat, {
     		key: m.key
     	}
     })	
-return conn.sendButtonDoc(m.chat, 'ʜᴀɪ,ᴀᴋᴜ ᴀᴅᴀʟᴀʜ ʙᴏᴛ ʏᴀɴɢ ᴅɪʙᴇʀɪ ɴᴀᴍᴀ 𝚈𝚘𝚛𝙱𝚘𝚝𝚣,ᴀᴋᴜ ᴅɪ ᴋᴇᴍʙᴀɴɢᴋᴀɴ ᴏʟᴇʜ ꜱᴇꜱᴇᴏʀᴀɴɢ ʏᴀɴɢ ʙᴇʀɴᴀᴍᴀ Sahrull,ʙᴇʟɪᴀᴜ ᴍᴀꜱɪʜ ᴘᴇᴍᴜʟᴀ ᴅᴀɴ ᴍᴀꜱɪʜ ʙᴇʟᴀᴊᴀʀ ʙᴀɴʏᴀᴋ ʜᴀʟ,ᴅᴀɴ ᴛᴜᴊᴜᴀɴɴʏᴀ ʜᴀɴʏᴀ ɪɴɢɪɴ ᴛᴀᴜ ʙᴇʀʙᴀɢᴀɪ ʜᴀʟ ʏᴀɴɢ ᴀᴅᴀ ᴅɪᴅᴜɴɪᴀ ʙᴏᴛ,ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ ꜰɪᴛᴜʀ ʙᴏᴛ,ꜱɪʟᴀʜᴋᴀɴ ᴋʟɪᴋ ʙᴜᴛᴛᴏɴ ᴅɪʙᴀᴡᴀʜ\n\nɴᴏᴛᴇ: ʜᴀʀᴀᴘ ɢᴜɴᴀᴋᴀɴ ʙᴏᴛ ꜱᴇᴄᴀʀᴀ ʙɪᴊᴀᴋ ᴅᴀɴ ᴊᴀɴɢᴀɴ ᴅɪꜱᴘᴀᴍ', data.namabot, 'ʟɪꜱᴛᴍᴇɴᴜ', '.simplemenu', fake, { contextInfo: {
+return conn.sendButtonDoc(m.chat, 'ʜᴀɪ,ᴀᴋᴜ ᴀᴅᴀʟᴀʜ ʙᴏᴛ ʏᴀɴɢ ᴅɪʙᴇʀɪ ɴᴀᴍᴀ 𝚈𝚘𝚛𝙱𝚘𝚝𝚣,ᴀᴋᴜ ᴅɪ ᴋᴇᴍʙᴀɴɢᴋᴀɴ ᴏʟᴇʜ ꜱᴇꜱᴇᴏʀᴀɴɢ ʏᴀɴɢ ʙᴇʀɴᴀᴍᴀ Sahrull,ʙᴇʟɪᴀᴜ ᴍᴀꜱɪʜ ᴘᴇᴍᴜʟᴀ ᴅᴀɴ ᴍᴀꜱɪʜ ʙᴇʟᴀᴊᴀʀ ʙᴀɴʏᴀᴋ ʜᴀʟ,ᴅᴀɴ ᴛᴜᴊᴜᴀɴɴʏᴀ ʜᴀɴʏᴀ ɪɴɢɪɴ ᴛᴀᴜ ʙᴇʀʙᴀɢᴀɪ ʜᴀʟ ʏᴀɴɢ ᴀᴅᴀ ᴅɪᴅᴜɴɪᴀ ʙᴏᴛ,ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ ꜰɪᴛᴜʀ ʙᴏᴛ,ꜱɪʟᴀʜᴋᴀɴ ᴋʟɪᴋ ʙᴜᴛᴛᴏɴ ᴅɪʙᴀᴡᴀʜ\n\nɴᴏᴛᴇ: ʜᴀʀᴀᴘ ɢᴜɴᴀᴋᴀɴ ʙᴏᴛ ꜱᴇᴄᴀʀᴀ ʙɪᴊᴀᴋ ᴅᴀɴ ᴊᴀɴɢᴀɴ ᴅɪꜱᴘᴀᴍ', data.namabot, 'ʟɪꜱᴛᴍᴇɴᴜ', '.simplemenu', fkon, { contextInfo: {
 externalAdReply :{
     showAdAttribution: true,
     mediaUrl: data.sc,
@@ -361,7 +363,7 @@ externalAdReply :{
     sourceUrl: data.sc,
     title: 'Jangan Dispam Ya Kak',
     body: wm,
-    thumbnail: await(await fetch(takina2)).buffer(),
+    thumbnail: await(await fetch(takina)).buffer(),
 }}})
 }
     }
