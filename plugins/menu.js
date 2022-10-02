@@ -182,7 +182,7 @@ ${'```%npmdesc```'}
            let hao = `▸ Ⓟ = for premium users.\n▸ Ⓛ = fitur berlimit.
  
  *Official Bot By @${'0'.split('@')[0]}* 
- *Powered By @${'94726083177'.split('@')[0]}*`
+ *Powered By @${'94726083178'.split('@')[0]}*`
     let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
      let pp = await conn.profilePictureUrl(who, 'image').catch((_) => "https://telegra.ph/file/24fa902ead26340f3df2c.png")
      let package = JSON.parse(await fs.promises.readFile(path.join(__dirname, '../package.json')).catch(_ => '{}')) 
@@ -294,7 +294,7 @@ ${'```%npmdesc```'}
     itemCount : 2022,
     status: 1,
     surface : 1,
-    message: `Rimuru Bot By Han`, 
+    message: `Stawberry Bot By Lakshan`, 
     orderTitle: `▮Menu ▸`,
     thumbnail: await (await fetch('https://telegra.ph/file/36220ef9feff0a65d5cfa.jpg')).buffer(), //Gambarnye
     sellerJid: '0@s.whatsapp.net' 
@@ -311,7 +311,7 @@ ${'```%npmdesc```'}
     itemCount : 999999999999,
     status: 404,
     surface : 404,
-    message: `© luminous-MD\nSimple WhatsApp Bot`, 
+    message: `© Stawberry-MD\nSimple WhatsApp Bot`, 
     orderTitle: `▮Menu ▸`,
     thumbnail: await (await fetch('https://telegra.ph/file/2b669452f7517d2b5097a.jpg')).buffer(),
     }
@@ -348,7 +348,7 @@ ${'```%npmdesc```'}
  	let cute = `${pickRandom(['https://telegra.ph/file/7551aa500fe0f3c8b7fa4.jpg'])}` 
  	let ori = `Hi Kak, @${m.sender.split`@`[0]}
  
-Saya Adalah Luminous Bot Salah Satu Bot Whatsapp Yang Siap Membantu Kamu Mempermudah Sesuatu Seperti Membuat Sticker Dan Lainnya, Kalo Kamu Mau Request Fitur Silahkan Ketik #request Pesan Atau Fitur Yang Kamu Inginkan!`
+_I am Stawberry Bot, one of the Whatsapp bots that is ready to help you make things easier like making stickers and more, if you want to request a feature, please type #request message or the feature you want!_`
 conn.sendMessage(m.chat, {
     	react: {
     		text: emot,
