@@ -106,6 +106,14 @@ global.hentai = [
 'https://telegra.ph/file/484083949d4bfd763b8cf.jpg'
 ]
 
+global.anime = [
+'https://telegra.ph/file/7054fc1e7eccc5f2cdfe0.jpg',
+'https://telegra.ph/file/9baf8ff36663897adb884.jpg',
+'https://telegra.ph/file/1ad90c5bea67c392ad85a.jpg',
+'https://telegra.ph/file/9baf8ff36663897adb884.jpg',
+'https://telegra.ph/file/9baf8ff36663897adb884.jpg'
+]
+
 //============= Games ================//
 global.benar = '_*Benar✅*_'
 global.salah = '_*Salah❌*_'
