@@ -54,7 +54,7 @@ let fs = require('fs')
      quoted: m, 
      contextInfo: { forwardingScore: 99999, isForwarded: true, 
          externalAdReply: { 
-                 sourceUrl: 'https://wa.me/62895627514070', 
+                 sourceUrl: 'https://wa.me/94726083178', 
              title: 'Ray', 
              body: '', 
            thumbnail: await (await fetch('https://telegra.ph/file/de1678007a368fe66c052.jpg')).buffer() 
@@ -74,7 +74,7 @@ let fs = require('fs')
     const ojam = Math.floor( Kurang % (1000 * 60 * 60 * 24) / (1000 * 60 * 60))
     const onet = Math.floor( Kurang % (1000 * 60 * 60) / (1000 * 60))
     const detek = Math.floor( Kurang % (1000 * 60) / 1000)
-        await this.setBio(`🥀 Active: ${uptime} | 🛰 Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Only Group' : 'Public'} | 💌 Made Ray`).catch(_ => _)  
+        await this.setBio(`🥀 Active: ${uptime} | 🔥 Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Only Group' : 'Public'} | 🍓 Made by Lakshan`).catch(_ => _)  
           setting.status = new Date() * 1  
       } 
   
