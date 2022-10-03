@@ -348,14 +348,14 @@ ${'```%npmdesc```'}
  	let cute = `${pickRandom(['https://telegra.ph/file/7551aa500fe0f3c8b7fa4.jpg'])}` 
  	let ori = `Hi Kak, @${m.sender.split`@`[0]}
  
-_I am Stawberry Bot, one of the Whatsapp bots that is ready to help you make things easier like making stickers and more, if you want to request a feature, please type #request message or the feature you want!_`
+_I am Stawberry Bot! 🍓 one of the Whatsapp bots that is ready to help you make things easier like making stickers and more, if you want to request a feature, please type #request message or the feature you want!_`
 conn.sendMessage(m.chat, {
     	react: {
     		text: emot,
     		key: m.key
     	}
     })	
-return conn.send3ButtonLoc(m.chat, await conn.resize(pickRandom(global.anime), 300, 300), ori, `Note : Jika Anda Menggunakan Wa Lama Atau Mod Dan Tombol Itu Tidak Terlihat Langsung Ketik ${_p}simplemenu`, 'COMMAND', '.simplemenu', 'DONATION', '.donasi', 'RENT BOT', '.sewa', m)
+return conn.send3ButtonLoc(m.chat, await conn.resize(pickRandom(global.anime), 300, 300), ori, `Note : If you are using an old wwhatsapp or mod and the button is not visible, type it right away ${_p}simplemenu`, 'COMMAND', '.simplemenu', 'DONATION', '.donasi', 'RENT BOT', '.sewa', m)
     
     }
   
