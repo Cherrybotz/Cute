@@ -147,7 +147,7 @@ _*${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik*_
 𒍮 *User Register: ${totalreg}*
 ●────━───༺༻───━────●`
 
-let ftt = `*Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada Owner
+let ftt = `*Note:* If you find bugs, errors or difficulties in use, please report/ask the Owner
 
  *Official Bot By @${'0'.split('@')[0]}* 
  *Powered By @${'94726083178'.split('@')[0]}*`
@@ -156,162 +156,162 @@ let ftt = `*Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan sil
                               {
                                 "rows": [{
                                          "title": "📊 › Status ",
-                                         "description": "Status カ ʟᴜᴍɪɴᴏᴜs-ᴍᴅ",
+                                         "description": "Status カ bot",
                                          "rowId": ".botstat"
                                     }, {
                                          "title": "⚡› Speed ",
-                                         "description": "Menampilkan Kecepatan Respon カ ʟᴜᴍɪɴᴏᴜs-ᴍᴅ",
+                                         "description": "Displaying Response Speed カ ",
                                          "rowId": ".ping"
                                     }, {
                                          "title": "🗒️› Info ",
-                                         "description": "Menampilkan Info カ ʟᴜᴍɪɴᴏᴜs-ᴍᴅ",
+                                         "description": " Info about bot",
                                          "rowId": ".info"
                                     }, {
                                          "title": "🎐 › Developer Bot",
-                                         "description": "Kontak Creator Ku",
+                                         "description": "owner's contact number",
                                          "rowId": ".owner"
                                     }, {
-                                         "title": "❗ › Syarat Dan Peraturan ",
-                                         "description": "Budayakan Membaca Sebelum Menggunakan Bot",
+                                         "title": "❗ › rules of using",
+                                         "description": "BCultivate Reading Before Using bot",
                                          "rowId": ".rules"
                                     }, {
                                          "title": "🪙 ›  Leaderboard",
-                                         "description": "Cek Posisi Mu",
+                                         "description": "leaders board",
                                          "rowId": ".lb"  
                                     }, {
                                          "title": "💌 › Group Official Bot",
-                                         "description": "Gabung untuk mendapatkan informasi mengenai bot atau sekedar meramaikan",
+                                         "description": "Join to get information about bots or just to enliven",
                                          "rowId": ".gcbot"                               
       }],             
                     "title": "▮Status 」"
                 }, {
                   "rows": [{
-                  "title": "「 💬 」› Semua Perintah",
-                  "description": "Menampilkan semua fitur dari bot",
+                  "title": "「 💬 」› All Orders",
+                  "description": "Shows all features of bot",
                   "rowId": ".? all"
                 }, {              
                   "title": "「 🎮 」› Game ",
-                  "description": "Menampilkan fitur dari game",
+                  "description": "Shows all game list",
                   "rowId": ".? game"
                 }, {
                   "title": "「 🌱 」› Rpg ",
-                  "description": "Menampilkan fitur dari rpg ! ",
+                  "description": "Showing features of rpg ! ",
                   "rowId": ".? rpg"
                 }, {
                   "title": "「 📈 」› Exp & Limit ",
-                  "description": "Menampilkan fitur dari xp",
+                  "description": "Showing features of xp",
                   "rowId": ".? xp"
                 }, {
                   "title": "「 🧩 」› Fun ",
-                  "description": "Menampilkan fitur dari fun",
+                  "description": "Showing features of fun",
                   "rowId": ".? fun"
                 }, {
                   "title": "「 🎁 」› Gift ",
-                  "description": "Menampilkan fitur dari gift!",
+                  "description": "Showing features of gift!",
                   "rowId": ".? gift"
                 }, {
                   "title": "「 🔞 」› Nsfw ",
-                  "description": "Menampilkan fitur dari nsfw",
+                  "description": "Showing features of nsfw",
                   "rowId": ".? nsfw"
                 }, {
                   "title": "「 ⛩️ 」› Anime ",
-                  "description": "Menampilkan fitur dari anime",
+                  "description": "Showing features of anime",
                   "rowId": ".? anime"
                 }, {
                   "title": "「 📰 」› News ",
-                  "description": "Menampilkan fitur dari berita",
+                  "description": "Showing features of news",
                   "rowId": ".? News"
                 },  {
                   "title": "「 ☪️ 」› Islamic ",
-                  "description": "Menampilkan fitur dari islam",
+                  "description": "Showing features of islam",
                   "rowId": ".? quran"
                 }, {
-                  "title": "「 📚 」› Edukasi ",
-                  "description": "Menampilkan fitur dari edukasi",
+                  "title": "「 📚 」› EEducation",
+                  "description": "Showing features of education",
                   "rowId": ".? edukasi"
                 }, {
                   "title": "「 🖼️ 」› Random Pict ",
-                  "description": "Menampilkan fitur dari foto",
+                  "description": "Showing features of pictures",
                   "rowId": ".? image"
                 },  {
                   "title": "「 🎫 」› Sticker ",
-                  "description": "Menampilkan fitur dari sticker",
+                  "description": "Showing features of stickers",
                   "rowId": ".? stiker"
                 }, {
                   "title": "「 🐚 」› Kerang Ajaib",
-                  "description": "Menampilkan fitur dari kerang ajaib",
+                  "description": "Showing features of kerang ajaib",
                   "rowId": ".? kerangajaib"
                 }, {
                   "title": "「 🎵 」› Sound Music ",
-                  "description": "Menampilkan fitur dari sound music",
+                  "description": "Showing features of sound music",
                   "rowId": ".? sound"
                 }, { 
                   "title": "「 🎧 」› Random Vn",
-                  "description": "Menampilkan fitur dari rendom vn",
+                  "description": "Showing features of random vn",
                   "rowId": ".? vn"                                                      
                 }, {
                   "title": "「 📑 」› Quotes ",
-                  "description": "Menampilkan fitur dari random teks",
+                  "description": "Showing features of random teks",
                   "rowId": ".? quotes"
                 }, {
                   "title": "「 🏛️  」› Group Settings ",
-                  "description": "Menampilkan fitur dari pengaturan grup",
+                  "description": "Showing features of group settings",
                   "rowId": ".? admin"
                 }, {
                   "title": "「 👥 」› Group ",
-                  "description": "Menampilkan fitur dari group",
+                  "description": "Showing features of group",
                   "rowId": ".? grup"
                 }, {
                   "title": "「 🌟 」› Premium ",
-                  "description": "Menampilkan fitur dari premium",
+                  "description": "Showing features of premium",
                   "rowId": ".? premium"
                 }, {
                   "title": "「 💻 」› Internet ",
-                  "description": "Menampilkan fitur dari internet",
+                  "description": "Showing features of internet",
                   "rowId": ".? internet"
                 }, {
                   "title": "「 🖊️ 」› Editz Menu ",
-                  "description": "Menampilkan fitur dari logo",
+                  "description": "Showing features of logo",
                   "rowId": ".? nulis"
                 }, {
                   "title": "「 📩 」› Downloader ",
-                  "description": "Menampilkan fitur dari download",
+                  "description": "Showing features of download",
                   "rowId": ".? downloader"
                 }, {
                   "title": "「 🎭 」›  Anonymous Chat",
-                  "description": "Menampilkan fitur dari anonymous chat",
+                  "description": "Showing features of anonymous chat",
                   "rowId": ".? anonymous"  
                 }, {              	
                   "title": "「 🧰 」› Tools ",
-                  "description": "Menampilkan fitur dari tools",
+                  "description": "Showing features of tools",
                   "rowId": ".? tools"
                 }, {
                   "title": "「 📂 」› Database ",
-                  "description": "Menampilkan fitur dari database",
+                  "description": "Showing features of database",
                   "rowId": ".? database"
                 }, {
                   "title": "「 🗳️ 」› Vote & Absen ",
-                  "description": "Menampilkan fitur dari vote",
+                  "description": "Showing features of vote",
                   "rowId": ".? vote"
                 }, {
                   "title": "「 🎙️ 」› Voice Changer ",
-                  "description": "Menampilkan fitur dari voice changer ",
+                  "description": "Showing features of voice changer ",
                   "rowId": ".? audio"
                 }, {
-                  "title": "「 🐾 」› Furry Kawai",
-                  "description": "Menampilkan fitur dari random furry ",
-                  "rowId": ".? furry"
+                  "title": "「 🐾 」› Lakshan Kawai",
+                  "description": "Showing details about owner",
+                  "rowId": ".? .owner"
                 }, {
                   "title": "「 ℹ️ 」› Info ",
-                  "description": "Menampilkan fitur dari info",
+                  "description": "Showing features of info",
                   "rowId": ".? info"
                 }, {
                   "title": "「 ❓ 」› No Category ",
-                  "description": "Menampilkan fitur dari tanpa kategori",
+                  "description": "Showing features of no category",
                   "rowId": ".? tanpakategori"
                 }, {
                   "title": "「 👩🏻‍💻 」› Owner ",
-                  "description": "Menampilkan fitur dari owner",
+                  "description": "Showing features of owner",
                   "rowId": ".? owner"
                 }],
                                 "title": "▮Category 」"
@@ -324,7 +324,7 @@ let ftt = `*Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan sil
                                 "title": "▮Last Update 」"
                                 }, {
                                 "rows": [{                                	
-                  "title": "「 🗨️ 」› Ray Chat ",
+                  "title": "「 🗨️ 」› Lakshan Chat ",
                   "description": "Mengobrol Dengan Orang Lain",
                   "rowId": ". start"
                 }],
@@ -342,23 +342,23 @@ let ftt = `*Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan sil
                                 "title": "▮Pengaturan 」" 
                                 }, {
                                 "rows": [{
-                                "title": "🗳️ ∫  Donasi ",
-                                "description": "Donasi kak, jangan enak pakenya doang",
+                                "title": "🗳️ ∫  funds ",
+                                "description": "Showing features of funds",
                                 "rowId": ".donasi"
                                 }, {
-                                "title": "🔖 ∫  Sewa bot - Premium ",
-                                "description": "Untuk kamu yang ingin melihat daftar harga sewa dan premium",
+                                "title": "🔖 ∫  rent bot - Premium ",
+                                "description": "Showing features of premium user rent",
                                 "rowId": ".sewa"
                                 }, {
                                 "title": "🌟 ∫  Premium ",
-                                "description": "Menampilkan List Harga premium",
+                                "description": "about premium users",
                                 "rowId": ".premium"
                                 }, {
                                 "title": "🔬  ∫  Source Code ",
-                                "description": "Menampilkan Source Code Bot",
+                                "description": "showning Source Code Bot",
                                 "rowId": ".sc"
                                 }, {
-                                "title": "💭 ∫  Pertanyaan Tentang Bot Ini ",
+                                "title": "💭 ∫  +212 kicking",
                                 "description": "Especially WhatsApp users whose numbers start with +212",
                                 "rowId": ".QnA"
                                 }, {
@@ -370,7 +370,7 @@ let ftt = `*Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan sil
                 }, {
                   "rows": [{
                   "title": "🥇「 Contributor 」",
-                  "description": "Terima kasih banyak untuk user yang telah berpartisipasi",                  
+                  "description": "Showing list of contributors",                  
                   "rowId": ".? thnks"
                        }],
                                 "title": "▮Thanks To  」"
@@ -378,9 +378,9 @@ let ftt = `*Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan sil
            ] 
     const listMessage = {
       text: `Halo ${name} Silahkan Pilih Menu Dibawah`.trim(),
-      footer: '[❗] Jika ada yang error segara lapor ke owner',
+      footer: '[❗] If there is an error, immediately report it to owner',
       title: judul,
-      buttonText: "ᴘɪʟɪʜ ᴅɪsɪɴɪ",
+      buttonText: "Tap on me!",
       sections
     }
      await conn.send3ButtonLoc(m.chat, await conn.resize(await genProfile(conn, m), 300, 180), tksk, ftt, 'RENT', '.sewa', 'OWNER', '.owner', 'CREDITS', '.tqto', m)
